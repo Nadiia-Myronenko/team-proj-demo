@@ -1,0 +1,16 @@
+li {
+  list-style: none;
+}
+.site-header {
+  display: flex;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+  &__list {
+    display: flex;
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+}
